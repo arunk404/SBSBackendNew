@@ -1,0 +1,44 @@
+
+@import 'mff/variables';
+@import 'mff/mixins';
+
+// Plugins CSS
+@import "mff/plugins/plugin-animate-bootstrap-notify";
+@import "mff/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "mff/buttons";
+@import "mff/inputs";
+@import "mff/typography";
+@import "mff/misc";
+@import "mff/checkboxes-radio";
+
+
+// components
+@import "mff/navbar";
+@import "mff/page-header";
+@import "mff/dropdown";
+@import "mff/alerts";
+@import "mff/images";
+@import "mff/nucleo-outline";
+@import "mff/tables";
+@import "mff/sidebar-and-main-panel";
+@import "mff/footers";
+@import "mff/fixed-plugin";
+
+// cards
+@import "mff/cards";
+@import "mff/cards/card-plain";
+@import "mff/cards/card-chart";
+@import "mff/cards/card-user";
+@import "mff/cards/card-map";
+@import "mff/cards/card-stats";
+
+// angular differences
+@import "mff/angular/plugin-ngx-toastr";
+@import "mff/angular/sidebar-and-main-panel";
+@import "mff/angular/dropdown";
+@import "mff/angular/inputs";
+@import "mff/angular/fixed-plugin";
+
+@import "mff/responsive";

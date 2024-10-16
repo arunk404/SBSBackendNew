@@ -1,0 +1,38 @@
+
+How to start app in a Nodejs process manager
+==============================================
+
+pm2 --name SBSServiceApp start app.js
+
+to see if pm2 is running:
+=========================
+pm2 ps
+
+to kill the process:
+====================
+
+pm2 delete [PROCESS_NUMBER]
+
+=============================
+
+
+Get the Process Id of given port
+	sudo lsof -i :8090
+
+Kill The Process with id
+	Sudo Kill <PID>
+
+
+project_directory:
+
+	Node app.js -> this will assing back the port
+
+==================================
+
+Check if the given port is used:
+	netstat -tuln | grep 8090
+
+=============================
+
+Restart Server: 
+	sudo systemctl restart/reload nginx

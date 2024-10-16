@@ -1,0 +1,20 @@
+Important
+=========
+
+Server URL = https://dev.mentorox.de/serviceapp
+localhost = http://localhost:8087
+
+Before pushing on the git server, please replace the localhost URLs with Server URLs in the following files:
+
+
+Files to change:
+
+views/public/assets/css/login.css
+
+views/layouts/index.hbs
+views/login.hbs
+views/loginerror.hbs
+views/loginserverror.hbs
+views/objectview.hbs
+
+
